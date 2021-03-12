@@ -52,7 +52,7 @@ class CardFactory {
                 let td = document.createElement("td");
 
                 if (number === 0) {
-                    td.setAttribute("class", "zero" + number)
+                    td.setAttribute("class", "zero " + number)
                 } else {
                     td.setAttribute("class", "filled " + number)
                 }
