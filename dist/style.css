@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    min-width: 50px;
+    min-height: 30px;
+    border: 2px #666 solid;
+    text-align: center;
+    font-size: 24px;
+    border-spacing: 0px;
+}
+
+input {
+    padding: 10px 10px 10px;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: 0px;
+}
+
+.filled {
+    background-color: rgba(18, 73, 175, 0.4);
+}
+
+.crossed {
+    background-color: #fab1b7 !important;
+}
+
+.zero {
+    color: white;
+}
